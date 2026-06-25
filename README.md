@@ -1,1 +1,1 @@
-# A-Aurora-Sustenta-a-Energia-que-Mant-m-a-Col-nia-Viva
+# A-Aurora-Sustenta-a-Energia-que-Mantém-a-Colônia-Viva

@@ -31,4 +31,53 @@ O projeto foi construído utilizando exclusivamente a biblioteca padrão do Pyth
 
 
 python codigo_fonte.py
-📈 Modelagem Matemática e ESGPara prever o impacto da expansão da infraestrutura marciana, o sistema aplica a fórmula de Crescimento Exponencial Contínuo:$$C(t) = C_0 \cdot e^{rt}$$Onde:C(t): Consumo energético total projetado.C₀: Consumo base atual da colônia (305 kW).e: Constante matemática de Euler.r: Taxa de expansão diária da colônia (fixada em 5%).t: Tempo em dias.Ação de Governança: Caso a simulação matemática preveja que o consumo ultrapassará o limite sustentável de 400 kW, o sistema dispara um bloqueio de segurança e emite um alerta em tela, auxiliando os gestores da colônia na tomada de decisão responsável.💻 Tecnologias e Conceitos UtilizadosLinguagem: Python 3Estruturas de Dados: Dicionários aninhados, Matrizes 2D, Listas de Adjacência e Tuplas Imutáveis.Módulos Nativos: collections.deque (Varredura BFS com performance $O(1)$), heapq (Fila de Prioridade para o Dijkstra) e math.👥 Autores (Desenvolvedores)Allan Victor Santos de Almeida Jesus - RM573218Gustavo Veloso Marchese dos Santos - RM568930José Elias Aleixo Lopes - RM568858Sarah Mendes Machado de Oliveira - RM570514Projeto desenvolvido como Atividade Integradora para a FIAP - 2026.
+📈 Modelagem Matemática e ESG
+Para prever o impacto da expansão da infraestrutura marciana, o sistema aplica a fórmula de Crescimento Exponencial Contínuo:
+
+C(t) = C₀ · e^(r·t)
+
+Onde:
+
+C(t): Consumo energético total projetado.
+
+C₀: Consumo base atual da colônia (305 kW).
+
+e: Constante matemática de Euler.
+
+r: Taxa de expansão diária da colônia (fixada em 5%).
+
+t: Tempo em dias.
+
+
+Ação de Governança: Caso a simulação matemática preveja que o consumo ultrapassará o limite sustentável de 400 kW, o sistema dispara um bloqueio de segurança e emite um alerta em tela, auxiliando os gestores da colônia na tomada de decisão responsável.
+
+
+💻 Tecnologias e Conceitos Utilizados
+Linguagem: Python 3
+
+Estruturas de Dados: Dicionários aninhados, Matrizes 2D, Listas de Adjacência e Tuplas Imutáveis.
+
+Módulos Nativos: collections.deque (Varredura BFS com performance O(1)), heapq (Fila de Prioridade para o Dijkstra) e math.
+
+
+👥 Autores (Desenvolvedores)
+Allan Victor Santos de Almeida Jesus - RM573218
+
+Gustavo Veloso Marchese dos Santos - RM568930
+
+José Elias Aleixo Lopes - RM568858
+
+Sarah Mendes Machado de Oliveira - RM570514
+
+Projeto desenvolvido como Atividade Integradora para a FIAP - 2026.
+
+
+
+
+
+
+
+
+
+
+

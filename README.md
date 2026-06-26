@@ -31,6 +31,7 @@ O projeto foi construído utilizando exclusivamente a biblioteca padrão do Pyth
 
 
 python codigo_fonte.py
+
 📈 Modelagem Matemática e ESG
 Para prever o impacto da expansão da infraestrutura marciana, o sistema aplica a fórmula de Crescimento Exponencial Contínuo:
 
@@ -38,15 +39,15 @@ C(t) = C₀ · e^(r·t)
 
 Onde:
 
-C(t): Consumo energético total projetado.
+   C(t): Consumo energético total projetado.
 
-C₀: Consumo base atual da colônia (305 kW).
+   C₀: Consumo base atual da colônia (305 kW).
 
-e: Constante matemática de Euler.
+   e: Constante matemática de Euler.
 
-r: Taxa de expansão diária da colônia (fixada em 5%).
+   r: Taxa de expansão diária da colônia (fixada em 5%).
 
-t: Tempo em dias.
+   t: Tempo em dias.
 
 
 Ação de Governança: Caso a simulação matemática preveja que o consumo ultrapassará o limite sustentável de 400 kW, o sistema dispara um bloqueio de segurança e emite um alerta em tela, auxiliando os gestores da colônia na tomada de decisão responsável.
